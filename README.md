@@ -8,4 +8,4 @@ We first use 3D visual grounding models to identify the interaction object. Then
 
 Our paper was accepted by ACM-MM 2025. 
 
-The code will be make public soon.
+The code will be made public soon.
