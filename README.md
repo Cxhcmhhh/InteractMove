@@ -44,6 +44,7 @@ pip install -r requirements.txt
     - In our implementation, we use the scenes with scan_id from `scene0000_00` to `scene0706_00`.
 
 2. Motions and Objects
+
 We will make this part public soon.
 
 ## Evaluation on Evaluation Set
