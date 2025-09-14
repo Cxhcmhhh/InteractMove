@@ -17,8 +17,8 @@ The detailed structure is as follows:
     - Mean_Std_*
     - ...
   - outputs/
-    - CDM-Perceiver-ALL/                # pre-trained ADM model on all datasets for novel set evaluation
-    - CMDM-Enc-ALL/                     # pre-trained CMDM model on all datasets for novel set evaluation
+    - CDM-Perceiver-ALL/                # pre-trained ADM model on all datasets for evaluation
+    - CMDM-Enc-ALL/                     # pre-trained CMDM model on all datasets for evaluation
   - configs/
   - datasets/
   - ...
@@ -26,11 +26,10 @@ The detailed structure is as follows:
 
 # Process Data
 
-The following process is to prepare the data for training model using HumanML3D, HUMANISE, and PROX together, corresponding to the evaluation on Novel Evaluation Set.
+The following process is to prepare the data for training model using InteractMove Dataset.
 
-We also use the processed HUMANISE data to train and evaluate on HUMANISE benchmark.
 
-## 1. Process motion of each dataset
+## 1. Process motion of the dataset
 
 ### InteractMove
 

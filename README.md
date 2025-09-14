@@ -38,34 +38,40 @@ pip install -r requirements.txt
 
 ### Data Preparation
 
+1. Scenes
+
+[ScanNet V2](http://www.scan-net.org/) dataset
+    - In our implementation, we use the scenes with scan_id from `scene0000_00` to `scene0706_00`.
+
+2. Motions and Objects
 We will make this part public soon.
 
-## Evaluation on Novel Evaluation Set
+## Evaluation on Evaluation Set
 
 ### Train ADM
 
 ```bash
-bash scripts/novel_contact/train_ddp.sh ${EXP_NAME} ${PORT}
+bash scripts/affordance/train_ddp.sh ${EXP_NAME} ${PORT}
 ```
 
 ### Train AMDM
 
 ```bash
-bash scripts/novel_contact_motion/train_ddp.sh ${EXP_NAME} ${PORT}
+bash scripts/motion/train_ddp.sh ${EXP_NAME} ${PORT}
 ```
 
 ### Evaluate
 
-#### 1. Pre-generate affordance maps using the novel evluation set
+#### 1. Pre-generate affordance maps using the evluation set
 
 ```bash
-bash scripts/novel_contact/test.sh ${MODEL_DIR} ${RAND_SEED}
+bash scripts/affordance/test.sh ${MODEL_DIR} ${RAND_SEED}
 ```
 
-#### 2. Generate motion sequences using the novel evluation set
+#### 2. Generate motion sequences using the evluation set
   
 ```bash
-bash scripts/novel_contact_motion/test.sh ${MODEL_DIR} ${AFFORD_DIR} ${RAND_SEED}
+bash scripts/motion/test.sh ${MODEL_DIR} ${AFFORD_DIR} ${RAND_SEED}
 ```
   - the arguments are the same as above
   - The calculated metrics are stored in `${MODEl_DIR}/eval/${test-MMDD-HHMMSS}/metrics.txt`
