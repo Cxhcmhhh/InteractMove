@@ -13,7 +13,7 @@ We first use 3D visual grounding models to identify the interaction object. Then
 Our paper was accepted by ACM-MM 2025. 
 
 [Paper](https://cxhcmhhh.github.io/InteractMoveProject/static/pdfs/paper.pdf) | 
-[Project](https://cxhcmhhh.github.io/InteractMoveProject)
+[Project](https://cxhcmhhh.github.io/InteractMoveProject) |
 [Dataset-HF](https://huggingface.co/datasets/cxhcmhhh/InteractMove)
 
 <div align=center>
