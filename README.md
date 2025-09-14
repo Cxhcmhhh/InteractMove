@@ -43,9 +43,15 @@ pip install -r requirements.txt
 [ScanNet V2](http://www.scan-net.org/) dataset
     - In our implementation, we use the scenes with scan_id from `scene0000_00` to `scene0706_00`.
 
-2. Motions and Objects
+2. Aligned Motions
 
-We will make this part public soon.
+[Google Drive]()
+    - Please download `InteractMove.zip` and unzip it to `root/data/InteractMove`.
+
+3. Objects Meshes
+
+[GRAB](https://github.com/otaheri/GRAB) dataset
+[BEHAVE](https://github.com/xiexh20/behave-dataset) dataset
 
 ## Evaluation on Evaluation Set
 
