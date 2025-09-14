@@ -2,6 +2,7 @@
 
 [![](https://img.shields.io/badge/Paper-PDF-red?style=plastic&logo=adobeacrobatreader&logoColor=red)](https://cxhcmhhh.github.io/InteractMoveProject/static/pdfs/paper.pdf)
 [![](https://img.shields.io/badge/Project-Page-blue?style=plastic&logo=githubpages&logoColor=blue)](https://cxhcmhhh.github.io/InteractMoveProject/)
+[![](https://img.shields.io/badge/HuggingFace-Dataset-yellow?style=plastic&logo=huggingface&logoColor=white)](https://huggingface.co/datasets/cxhcmhhh/InteractMove)
 
 This repository is the official Pytorch implementation for the paper **InteractMove: Text-Controlled Human-Object Interaction Generation in 3D Scenes with Movable Objects**.
 
@@ -13,6 +14,7 @@ Our paper was accepted by ACM-MM 2025.
 
 [Paper](https://cxhcmhhh.github.io/InteractMoveProject/static/pdfs/paper.pdf) | 
 [Project](https://cxhcmhhh.github.io/InteractMoveProject)
+[Dataset-HF](https://huggingface.co/datasets/cxhcmhhh/InteractMove)
 
 <div align=center>
 <img src='./assets/teaser.png' width=60%>
@@ -45,7 +47,7 @@ pip install -r requirements.txt
 
 2. Aligned Motions
 
-[Google Drive]()
+[Hugging Face](https://huggingface.co/datasets/cxhcmhhh/InteractMove)
     - Please download `InteractMove.zip` and unzip it to `root/data/InteractMove`.
 
 3. Objects Meshes
