@@ -89,7 +89,14 @@ bash scripts/motion/test.sh ${MODEL_DIR} ${AFFORD_DIR} ${RAND_SEED}
 ## Citation
 
 If you find our project useful, please consider citing us.
-
+```bib
+@article{cai-etal-2025-interactmove,
+      title={InteractMove: Text-Controlled Human-Object Interaction Generation in 3D Scenes with Movable Objects},
+      author={Xinhao Cai and Minghang Zheng and Xin Jin and Yang Liu},
+      journal={Proceedings of the 32nd ACM International Conference on Multimedia},
+      year={2025}
+    }
+```
 
 ### Acknowledgement
 
