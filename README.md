@@ -71,18 +71,31 @@ bash scripts/motion/train_ddp.sh ${EXP_NAME} ${PORT}
 
 ### Evaluate
 
-#### 1. Pre-generate affordance maps using the evluation set
+#### 0. Pretrained checkpoints download
+
+[Google Drive](https://drive.google.com/drive/folders/1w8sLEl7XUJEI1XDO-D44Ls-7rf33wVCs?usp=sharing)
+The ckpt structure should be:
+```
+-root
+   |--outputs
+        |--CDM-Perceiver-IM
+            |--<model_name>.pt
+        |--CMDM-Enc-IM
+            |--<model_name>.pt
+```
+
+#### 1. Pre-generate affordance maps using the evaluation set
 
 ```bash
 bash scripts/affordance/test.sh ${MODEL_DIR} ${RAND_SEED}
 ```
 
-#### 2. Generate motion sequences using the evluation set
+#### 2. Generate motion sequences using the evaluation set
   
 ```bash
 bash scripts/motion/test.sh ${MODEL_DIR} ${AFFORD_DIR} ${RAND_SEED}
 ```
-  - the arguments are the same as above
+  - The arguments are the same as above
   - The calculated metrics are stored in `${MODEl_DIR}/eval/${test-MMDD-HHMMSS}/metrics.txt`
 
 
