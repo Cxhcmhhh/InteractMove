@@ -74,6 +74,7 @@ bash scripts/motion/train_ddp.sh ${EXP_NAME} ${PORT}
 #### 0. Pretrained checkpoints download
 
 [Google Drive](https://drive.google.com/drive/folders/1w8sLEl7XUJEI1XDO-D44Ls-7rf33wVCs?usp=sharing)
+
 The ckpt structure should be:
 ```
 -root
