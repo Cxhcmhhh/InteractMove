@@ -4,6 +4,7 @@
 [![arXiv](https://img.shields.io/badge/arXiv-2509.23612-b31b1b.svg)](https://arxiv.org/abs/2509.23612)
 [![](https://img.shields.io/badge/Project-Page-blue?style=plastic&logo=githubpages&logoColor=blue)](https://cxhcmhhh.github.io/InteractMoveProject/)
 [![](https://img.shields.io/badge/HuggingFace-Dataset-yellow?style=plastic&logo=huggingface&logoColor=white)](https://huggingface.co/datasets/cxhcmhhh/InteractMove)
+[![YouTube](https://img.shields.io/badge/YouTube-Video-red?style=plastic&logo=youtube&logoColor=red)](https://www.youtube.com/watch?v=qEFL5kgA9og)
 
 This repository is the official Pytorch implementation for the paper **InteractMove: Text-Controlled Human-Object Interaction Generation in 3D Scenes with Movable Objects**.
 
@@ -16,7 +17,8 @@ Our paper was accepted by ACM-MM 2025.
 [Paper](https://cxhcmhhh.github.io/InteractMoveProject/static/pdfs/paper.pdf) | 
 [arXiv](https://arxiv.org/abs/2509.23612) |
 [Project](https://cxhcmhhh.github.io/InteractMoveProject) |
-[Dataset-HF](https://huggingface.co/datasets/cxhcmhhh/InteractMove)
+[Dataset-HF](https://huggingface.co/datasets/cxhcmhhh/InteractMove) |
+[YouTube](https://www.youtube.com/watch?v=qEFL5kgA9og)
 
 <div align=center>
 <img src='./assets/teaser.png' width=60%>
