@@ -1,6 +1,7 @@
 # InteractMove
 
 [![](https://img.shields.io/badge/Paper-PDF-red?style=plastic&logo=adobeacrobatreader&logoColor=red)](https://cxhcmhhh.github.io/InteractMoveProject/static/pdfs/paper.pdf)
+[![arXiv](https://img.shields.io/badge/arXiv-2509.23612-b31b1b.svg)](https://arxiv.org/abs/2509.23612)
 [![](https://img.shields.io/badge/Project-Page-blue?style=plastic&logo=githubpages&logoColor=blue)](https://cxhcmhhh.github.io/InteractMoveProject/)
 [![](https://img.shields.io/badge/HuggingFace-Dataset-yellow?style=plastic&logo=huggingface&logoColor=white)](https://huggingface.co/datasets/cxhcmhhh/InteractMove)
 
@@ -13,6 +14,7 @@ We first use 3D visual grounding models to identify the interaction object. Then
 Our paper was accepted by ACM-MM 2025. 
 
 [Paper](https://cxhcmhhh.github.io/InteractMoveProject/static/pdfs/paper.pdf) | 
+[arXiv](https://arxiv.org/abs/2509.23612) |
 [Project](https://cxhcmhhh.github.io/InteractMoveProject) |
 [Dataset-HF](https://huggingface.co/datasets/cxhcmhhh/InteractMove)
 
